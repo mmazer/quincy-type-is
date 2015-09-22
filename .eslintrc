@@ -12,10 +12,10 @@
         "semi": [
             2,
             "always"
-        ],
-        "globals": {
-            "describe": true
-        }
+        ]
+    },
+    "globals": {
+        "describe": true
     },
     "env": {
         "node": true,
