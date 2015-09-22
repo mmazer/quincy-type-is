@@ -53,7 +53,7 @@ Returns `true` if the value is something other than `undefined` or `null` or
 
 `isNone(value)`
 
-Returns `true` if the value is `undefined` or `null`; otherwise,  `false`
+Returns `true` if the value is `undefined` or `null` or `false` otherwise.
 
         var x;
         isNone(x); // => true
@@ -77,7 +77,7 @@ Returns `true` if the value is `null` or `false` otherwise.
         var x;
         var y = null;
         isNull(x); // => false
-        isUndef(y); // => true
+        isNull(y); // => true
 
 ##### isArray
 
